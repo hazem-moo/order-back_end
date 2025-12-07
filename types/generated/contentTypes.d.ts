@@ -441,7 +441,9 @@ export interface ApiMenuMenu extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    category: Schema.Attribute.String & Schema.Attribute.Required;
+    category: Schema.Attribute.Enumeration<
+      ['Pizzas', 'Garlic-Bread', 'Calzone', 'Kebabas']
+    >;
     category_img: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     > &

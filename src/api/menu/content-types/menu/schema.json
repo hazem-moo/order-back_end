@@ -11,10 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "category": {
-      "type": "string",
-      "required": true
-    },
     "name": {
       "type": "string",
       "required": true
@@ -41,6 +37,15 @@
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Pizzas",
+        "Garlic-Bread",
+        "Calzone",
+        "Kebabas"
       ]
     }
   }
