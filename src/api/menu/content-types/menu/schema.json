@@ -47,6 +47,10 @@
         "Calzone",
         "Kebabas"
       ]
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
     }
   }
 }
