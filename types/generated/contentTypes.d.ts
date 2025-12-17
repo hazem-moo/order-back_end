@@ -442,7 +442,7 @@ export interface ApiMenuMenu extends Struct.CollectionTypeSchema {
   };
   attributes: {
     category: Schema.Attribute.Enumeration<
-      ['Pizzas', 'Garlic-Bread', 'Calzone', 'Kebabas']
+      ['pizzas', 'garlic_bread', 'calzone']
     >;
     category_img: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'

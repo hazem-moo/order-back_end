@@ -42,10 +42,9 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "Pizzas",
-        "Garlic-Bread",
-        "Calzone",
-        "Kebabas"
+        "pizzas",
+        "garlic_bread",
+        "calzone"
       ]
     },
     "price": {
