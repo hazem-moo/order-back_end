@@ -8,24 +8,17 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "img": {
+      "type": "string"
     },
     "price": {
       "type": "decimal"
     },
-    "quantity": {
-      "type": "integer",
-      "default": 1
-    },
-    "productId": {
-      "type": "integer"
-    },
-    "img": {
-      "type": "string"
-    },
     "category": {
       "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
     }
   },
   "config": {}

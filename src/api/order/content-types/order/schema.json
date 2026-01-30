@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "orderId": {
+      "type": "integer"
+    },
     "username": {
       "type": "string"
     },

@@ -7,12 +7,10 @@ export interface CartCart extends Struct.ComponentSchema {
   };
   attributes: {
     category: Schema.Attribute.String;
-    description: Schema.Attribute.Text;
     img: Schema.Attribute.String;
     name: Schema.Attribute.String;
     price: Schema.Attribute.Decimal;
-    productId: Schema.Attribute.Integer;
-    quantity: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<1>;
+    quantity: Schema.Attribute.Integer;
   };
 }
 
