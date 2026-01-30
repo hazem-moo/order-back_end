@@ -20,6 +20,9 @@
     "quantity": {
       "type": "integer",
       "default": 1
+    },
+    "productId": {
+      "type": "integer"
     }
   },
   "config": {}
