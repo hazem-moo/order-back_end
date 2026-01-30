@@ -18,7 +18,8 @@
       "type": "string"
     },
     "quantity": {
-      "type": "integer"
+      "type": "integer",
+      "default": 1
     }
   },
   "config": {}
